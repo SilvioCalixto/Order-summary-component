@@ -47,12 +47,21 @@ body {
     justify-content:space-between;
 }
 
+.plan a {
+    text-decoration: none;
+    color: #382ae1;
+}
+
 .container h1, h4 {
     color:#21304f;
 }
 
 .container p {
     color: #82889e;
+}
+
+.cancel {
+    background-color: white;
 }
 
 .payment {
@@ -65,18 +74,17 @@ body {
     align-items:center;
     justify-content:center;
 }
-
-.payment a {
+a .cancel {
     text-decoration: none;
     color:white;
 }
 
-#cancel a {
+.payment a {
     text-decoration: none;
     color: #82889e;
 }
 
-#cancel a:hover {
+.payment a:hover {
     color: #382ae1;
 }
 
