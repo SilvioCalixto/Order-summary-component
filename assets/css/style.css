@@ -37,6 +37,15 @@ body {
     border-top-right-radius: 0.9375rem;
 }
 
+
+.container h1, h4 {
+    color:#21304f;
+}
+
+.container p {
+    color: #82889e;
+}
+
 .plan {
     background-color: #f8f9fe;
     height: 6.25rem;
@@ -44,7 +53,7 @@ body {
     border-radius:0.9375rem;
     display:flex;
     align-items:center;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 
 .plan img {
@@ -57,16 +66,12 @@ body {
     color: #382ae1;
 }
 
-.container h1, h4 {
-    color:#21304f;
-}
+.plan:hover {
+    box-shadow:  1px 1px 1px 1px gray;
 
-.container p {
-    color: #82889e;
 }
-
-.cancel {
-    background-color: white;
+.text {
+    
 }
 
 #payment {
@@ -105,9 +110,6 @@ body {
     color: #382ae1;
     box-shadow:  1px 1px 1px 1px gray;
 }
-
-
-
 
 .attribution {
      font-size: 0.6875rem; text-align: center; 
