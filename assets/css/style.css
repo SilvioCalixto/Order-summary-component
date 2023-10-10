@@ -59,6 +59,7 @@ body {
 .plan img {
     width: 70px;
     height: 70px;
+    margin-right: 10px;
 }
 
 .plan a {
@@ -70,8 +71,13 @@ body {
     box-shadow:  1px 1px 1px 1px gray;
 
 }
+.plan1 {
+    display:flex;
+
+}  
+
 .text {
-    
+    margin-top: 10px;
 }
 
 #payment {
