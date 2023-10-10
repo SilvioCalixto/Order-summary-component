@@ -27,7 +27,7 @@ body {
     flex-direction:column;
     justify-content:space-between;
     align-items:center;
-    padding-bottom: 3.125rem;
+    padding-bottom: 20px;
 }
 
 .container img {
@@ -47,6 +47,11 @@ body {
     justify-content:space-between;
 }
 
+.plan img {
+    width: 70px;
+    height: 70px;
+}
+
 .plan a {
     text-decoration: none;
     color: #382ae1;
@@ -64,7 +69,7 @@ body {
     background-color: white;
 }
 
-.payment {
+#payment {
     background-color: #382ae1;
     color: white;
     height: 3.125rem;
@@ -74,25 +79,40 @@ body {
     align-items:center;
     justify-content:center;
 }
-a .cancel {
+
+#payment {
     text-decoration: none;
     color:white;
 }
 
-.payment a {
+#payment:hover{
+    box-shadow:  1px 1px 1px 1px gray;
+}
+
+#cancel {
+    color: white;
+    height: 3.125rem;
+    width: 22.1875rem;
+    border-radius: 0.9375rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     text-decoration: none;
     color: #82889e;
 }
 
-.payment a:hover {
+#cancel:hover {
     color: #382ae1;
+    box-shadow:  1px 1px 1px 1px gray;
 }
 
 
 
 
 .attribution {
-     font-size: 0.6875rem; text-align: center; }
+     font-size: 0.6875rem; text-align: center; 
+}
 
 .attribution a {
-     color: hsl(228, 45%, 44%); }
+     color: hsl(228, 45%, 44%);
+}
